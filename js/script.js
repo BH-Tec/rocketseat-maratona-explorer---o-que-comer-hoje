@@ -25,5 +25,6 @@ function fazerPergunta() {
   // sumir a resposta apos 3 segundos
   setTimeout(function() {
     elementoResposta.style.opacity = 0;
+    buttonPerguntar.removeAttribute('disabled');
   }, 7000);
 }
